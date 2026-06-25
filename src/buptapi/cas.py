@@ -1,6 +1,6 @@
-from buptapi.service import Service
-from buptapi.endpoint import Endpoint
+from enum import StrEnum
 
-class CAS(Service):
-    BASEURI = "https://auth.bupt.edu.cn"
-    LOGIN = Endpoint("/authserver/login")
+
+class CAS(StrEnum):
+    LOGIN = "https://auth.bupt.edu.cn/authserver/login"
+    STATUS = "https://uc.bupt.edu.cn/api/uc/status"
