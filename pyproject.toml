@@ -1,5 +1,5 @@
 [project]
-name = "buptapi"
+name = "buptapis"
 dynamic = ["version"]
 description = "Add your description here"
 readme = "README.md"
@@ -23,7 +23,7 @@ requires-python = ">=3.11"
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/ZeroCore-Zero/BUPT_API"
+Homepage = "https://github.com/ZeroCore-Zero/BUPT_APIS"
 
 [build-system]
 requires = ["hatchling", "hatch-vcs"]
